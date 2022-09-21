@@ -1,1 +1,0 @@
-# TP-N-6-Trabajando-conciclos
