@@ -1,0 +1,82 @@
+void setup()
+{
+  pinMode(11, OUTPUT);
+  pinMode(10, OUTPUT);
+  pinMode(9, OUTPUT);
+}
+
+void loop()
+{
+  analogWrite(11, 255);
+  analogWrite(10, 0);
+  analogWrite(9, 0);
+  delay(1000); // Esperar 1000 milisegundos
+  analogWrite(11, 255);
+  analogWrite(10, 102);
+  analogWrite(9, 102);
+  delay(1000); // Esperar 1000 milisegundos
+  analogWrite(11, 255);
+  analogWrite(10, 102);
+  analogWrite(9, 0);
+  delay(1000); // Esperar 1000 milisegundos
+  analogWrite(11, 255);
+  analogWrite(10, 153);
+  analogWrite(9, 102);
+  delay(1000); // Esperar 1000 milisegundos
+  analogWrite(11, 255);
+  analogWrite(10, 255);
+  analogWrite(9, 0);
+  delay(1000); // Esperar 1000 milisegundos
+  analogWrite(11, 255);
+  analogWrite(10, 255);
+  analogWrite(9, 102);
+  delay(1000); // Esperar 1000 milisegundos
+  analogWrite(11, 102);
+  analogWrite(10, 51);
+  analogWrite(9, 0);
+  delay(1000); // Esperar 1000 milisegundos
+  analogWrite(11, 204);
+  analogWrite(10, 153);
+  analogWrite(9, 51);
+  delay(1000); // Esperar 1000 milisegundos
+  analogWrite(11, 0);
+  analogWrite(10, 102);
+  analogWrite(9, 0);
+  delay(1000); // Esperar 1000 milisegundos
+  analogWrite(11, 51);
+  analogWrite(10, 204);
+  analogWrite(9, 0);
+  delay(1000); // Esperar 1000 milisegundos
+  analogWrite(11, 0);
+  analogWrite(10, 204);
+  analogWrite(9, 204);
+  delay(1000); // Esperar 1000 milisegundos
+  analogWrite(11, 51);
+  analogWrite(10, 255);
+  analogWrite(9, 255);
+  delay(1000); // Esperar 1000 milisegundos
+  analogWrite(11, 0);
+  analogWrite(10, 0);
+  analogWrite(9, 153);
+  delay(1000); // Esperar 1000 milisegundos
+  analogWrite(11, 51);
+  analogWrite(10, 102);
+  analogWrite(9, 255);
+  delay(1000); // Esperar 1000 milisegundos
+  analogWrite(11, 102);
+  analogWrite(10, 0);
+  analogWrite(9, 204);
+  delay(1000); // Esperar 1000 milisegundos
+  analogWrite(11, 102);
+  analogWrite(10, 51);
+  analogWrite(9, 255);
+  delay(1000); // Esperar 1000 milisegundos
+  analogWrite(11, 204);
+  analogWrite(10, 51);
+  analogWrite(9, 204);
+  delay(1000); // Esperar 1000 milisegundos
+  analogWrite(11, 204);
+  analogWrite(10, 102);
+  analogWrite(9, 204);
+  delay(1000); // Esperar 1000 milisegundos
+}
